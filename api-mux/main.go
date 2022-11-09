@@ -1,5 +1,7 @@
 package main
 
+// API desenvolvida com base no tutorial: https://www.youtube.com/watch?v=kjQUUc_o-UU
+
 import (
 	"encoding/json"
 	"fmt"

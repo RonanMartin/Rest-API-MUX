@@ -19,6 +19,7 @@ type User struct {
 	Name string `json: "name"`
 }
 
+// -----------------------------------------------------------
 func getUsers(w http.ResponseWriter, r *http.Request) {
 	if r.Method != "GET" {
 		http.Error(w, http.StatusText(http.StatusMethodNotAllowed), http.StatusMethodNotAllowed)
